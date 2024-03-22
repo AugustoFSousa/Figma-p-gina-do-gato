@@ -1,0 +1,86 @@
+body {
+  height: 840px;
+  width: 1440px;
+}
+
+img {
+  height: 840px;
+  width: 610px;
+}
+
+p {
+  font-size: 12px;
+}
+
+#principal {
+  display: flex;
+}
+
+#conteudo_texto {
+  display: flex;
+  flex-direction: column;
+}
+
+#conteudo_cabecalho {
+  text-align: left;
+  margin-top: 50px;
+  margin: 20px;
+}
+
+#conteudo_titulo {
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 48px;
+  text-align: left;
+  color: #091133;
+  text-shadow: 0px 4px 4px rgb(61, 55, 55);
+}
+
+.conteudo_descricao {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: #6F7CB2;
+   text-shadow: 0px 4px 4px rgb(61, 55, 55)
+}
+
+#conteudo_caracteristicas {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3px;
+  margin-top: 80px;
+}
+
+.conteudo_opcoes {
+  width: 325px;
+  height: 121px;
+  margin-left: 30px;
+}
+
+.titulo_caracteristicas {
+  font-family: Roboto;
+  font-size:  medium 16px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: left;
+  color:#091133;
+}
+
+.explicacao_caracteristica {
+  font-family: Roboto;
+  font-size:  regular 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  color:#5D6970;
+}
+
+#nome_cientifico{
+  color: #091133;
+}
+
+#links_visitados{
+  color: #6F7CB2;
